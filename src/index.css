@@ -8,8 +8,30 @@ All colors MUST be HSL.
 
 @layer base {
   :root {
-    --background: 0 0% 100%;
-    --foreground: 222.2 84% 4.9%;
+    --background: 240 10% 3.9%;
+    --foreground: 0 0% 98%;
+    
+    /* Calculator specific colors */
+    --calculator-bg: 240 10% 3.9%;
+    --calculator-display: 240 6% 10%;
+    --calculator-button: 240 5% 15%;
+    --calculator-button-hover: 240 5% 20%;
+    --calculator-button-active: 240 5% 25%;
+    --calculator-operator: 47 96% 53%;
+    --calculator-operator-hover: 47 96% 58%;
+    --calculator-equals: 142 76% 36%;
+    --calculator-equals-hover: 142 76% 41%;
+    --calculator-clear: 0 84% 60%;
+    --calculator-clear-hover: 0 84% 65%;
+    
+    /* Gradients */
+    --gradient-calculator: linear-gradient(135deg, hsl(240 10% 3.9%), hsl(240 8% 6%));
+    --gradient-display: linear-gradient(135deg, hsl(240 6% 10%), hsl(240 4% 12%));
+    
+    /* Shadows */
+    --shadow-calculator: 0 25px 50px -12px hsl(240 10% 3.9% / 0.5);
+    --shadow-button: 0 4px 6px -1px hsl(240 10% 3.9% / 0.3);
+    --shadow-inner: inset 0 2px 4px 0 hsl(240 10% 3.9% / 0.1);
 
     --card: 0 0% 100%;
     --card-foreground: 222.2 84% 4.9%;

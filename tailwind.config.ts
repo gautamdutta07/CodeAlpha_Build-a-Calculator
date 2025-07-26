@@ -24,6 +24,19 @@ export default {
 				ring: 'hsl(var(--ring))',
 				background: 'hsl(var(--background))',
 				foreground: 'hsl(var(--foreground))',
+				calculator: {
+					bg: 'hsl(var(--calculator-bg))',
+					display: 'hsl(var(--calculator-display))',
+					button: 'hsl(var(--calculator-button))',
+					'button-hover': 'hsl(var(--calculator-button-hover))',
+					'button-active': 'hsl(var(--calculator-button-active))',
+					operator: 'hsl(var(--calculator-operator))',
+					'operator-hover': 'hsl(var(--calculator-operator-hover))',
+					equals: 'hsl(var(--calculator-equals))',
+					'equals-hover': 'hsl(var(--calculator-equals-hover))',
+					clear: 'hsl(var(--calculator-clear))',
+					'clear-hover': 'hsl(var(--calculator-clear-hover))',
+				},
 				primary: {
 					DEFAULT: 'hsl(var(--primary))',
 					foreground: 'hsl(var(--primary-foreground))'
